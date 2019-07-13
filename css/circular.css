@@ -1,0 +1,85 @@
+.card{
+  width: 25vw;
+  height: 50vh;
+  overflow-x: hidden;
+  padding:20px;
+  border-radius: 50%;
+}
+
+
+
+.content{
+  position: absolute;
+  z-index:3;
+  width:25vw;
+  height: 50vh;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  line-height: 25px;
+  color:white;
+  background-color: #48d494;
+  border-radius: 50%;
+
+}
+
+.showbutton{
+  position: absolute;
+  z-index: 14;
+  margin-top: 45vh;
+  margin-left: 12vw;
+  height:45px;
+  width: 65px;
+}
+
+.closebutton{
+  position: absolute;
+  z-index: 12;
+  margin-top: 42vh;
+  margin-left: 12vw;
+  height:45px;
+  width: 60px;
+}
+
+.closebutton button{
+  border-radius: 50%;
+  outline: none;
+  border:none;
+  background-color: #48d494;
+  line-height: 13px;
+  font-size: 12px;
+  padding:3px;
+}
+
+.showbutton button{
+  border-radius: 50%;
+  outline: none;
+  border-color: white;
+  background-color: mintcream;
+  line-height: 15px;
+  font-size: 20px;
+}
+
+
+.imagecard{
+  position:absolute;
+  z-index:1;
+  width:25vw;
+  height: 50vh;
+}
+
+
+.imagecard img{
+  width:25vw;
+  height: 50vh;
+  border-radius: 50%;
+}
+
+.content{
+  opacity: 0;
+}
+
+.closebutton{
+  opacity:0;
+}

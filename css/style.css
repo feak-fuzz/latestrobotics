@@ -667,7 +667,7 @@ h1, h2, h3, h4, h5,
 
 /* Navbar */
 a.navbar-brand{
-  margin:0px 90px 0px 90px;
+  margin:0px 60px 0px 0px;
   font-weight: 900;
   font-size: 1.3rem;
   color: white;
@@ -678,7 +678,7 @@ a.navbar-brand{
 
 }
 .navbar{
-  padding: 0px;
+  padding: 0px 0px 0px 40px;
 }
 
 
@@ -1482,3 +1482,15 @@ span.flaticon-award:before {
   display: none;
 }
 
+/*animated video text of home pg*/
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
